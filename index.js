@@ -2,6 +2,7 @@ require("dotenv").config();
 
 
 const express =  require('express');
+require('./db_conn');
 const app = express()
 
 const HOST = process.env.HOST //127.0.0.1
